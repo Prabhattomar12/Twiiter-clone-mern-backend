@@ -111,5 +111,3 @@ app.post('/upload/newPost', (req, res) => {
 // listen
 
 app.listen(PORT, () => console.log(`server is running at port ${PORT}`));
-
-// mongo password
