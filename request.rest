@@ -1,0 +1,24 @@
+GET http://localhost:9000
+
+###
+
+POST http://localhost:9000/upload/newPost
+Content-Type: application/json
+
+{
+    "displayName": "Prabhat tomar",
+    "avatar": "src",
+    "username": "Prabhattomar12",
+    "verified": true,
+    "text": "MERN POST",
+    "image": "url"
+
+}
+
+###
+
+GET http://localhost:9000/retrieve/posts
+
+### 
+
+GET http://localhost:9000/retrieve/image/single?filename=image-1623342310063.png
